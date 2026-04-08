@@ -1,0 +1,13 @@
+[package]
+name = "worm-random-ssh"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.44", features = ["full"] }
+ssh2 = "0.9"
+rayon = "1.10"
+clap = { version = "4.5", features = ["derive"] }
+colored = "2.1"
+rand = "0.8"
+socks = "0.3"
